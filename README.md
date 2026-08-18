@@ -17,3 +17,14 @@ A powerful, interactive Streamlit web application designed for Linux system admi
 * A Linux-based operating system (Ubuntu/Debian recommended for `apt` and `ufw` compatibility).
 * Python 3.8+ installed.
 * `root` or `sudo` privileges (required to read logs, modify configs, and kill processes).
+
+  
+......usage......
+
+install requirements first
+pip install -r requirements.txt
+
+run
+streamlit run cybersecurity.py
+
+Note: Access the dashboard via your browser at http://localhost:8501.
